@@ -1,1 +1,3 @@
 plotly
+catboost==1.2.7
+xgboost==2.1.1
