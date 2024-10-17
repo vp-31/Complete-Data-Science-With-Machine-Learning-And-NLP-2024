@@ -1,0 +1,4 @@
+# ** CREATE VIRTUAL ENVIORNMENT **
+# here created venv VIRTUAL ENVIORNMENT
+# then installed below packages
+dvc==3.55.2
