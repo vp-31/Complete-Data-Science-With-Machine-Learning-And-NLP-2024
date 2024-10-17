@@ -162,4 +162,7 @@ cython_debug/
 #.idea/
 
 # project logs
-logs/
+logs/s
+
+#macOS associated files created by the mac
+.DS_Store
