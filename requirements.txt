@@ -1,3 +1,16 @@
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+flask
+memory_profiler
+streamlit
+scikit-learn
+lxml
+html5lib
+beautifulsoup4
+imblearn
 plotly
 catboost==1.2.7
 xgboost==2.1.1
