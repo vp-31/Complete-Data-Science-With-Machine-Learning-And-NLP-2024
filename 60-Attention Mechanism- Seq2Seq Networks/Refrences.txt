@@ -1,0 +1,16 @@
+Link:-
+https://erdem.pl/2021/05/introduction-to-attention-mechanism
+
+Summary
+### Abstract
+The blog by Kemal Erdem provides a detailed introduction to the Attention Mechanism, a groundbreaking innovation in Machine Learning that addresses the limitations of RNN models in handling long sequences. It explains the development of Attention, its application in tasks like sequence-to-sequence translation, and its extension to novel contexts such as image captioning. By delving into concepts like alignment scores, attention weights, context vectors, and key mathematical formulations, the article builds a foundation for understanding Self-Attention, a fundamental unit in advanced models like Transformers, and highlights its versatility and interpretability.
+
+### Key Points
+- The Attention Mechanism was developed to overcome RNN's limitations in processing long input sequences by dynamically creating context vectors for each decoding step.
+- Alignment scores, computed via functions like Multi-Layer Perceptrons, determine how relevant specific input data is at each decoding timestep.
+- Attention weights, derived from normalized alignment scores using softmax, dictate the importance of different encoder states.
+- Context vectors are calculated by summing the weighted encoder states, helping decode outputs step-by-step dynamically.
+- In image captioning, Attention is applied to CNN feature maps, enabling models to focus on specific regions of images while generating captions.
+- Self-Attention adjusts input vectors internally through trainable weights, introducing permutation-equivariant transformations suitable for models like Transformers.
+- The Self-Attention Layer is a general-purpose mechanism that underpins modern architectures such as the Transformer, enabling efficient parallelization and scalability.
+
