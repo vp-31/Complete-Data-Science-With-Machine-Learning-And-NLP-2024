@@ -166,6 +166,3 @@ logs/s
 
 #macOS associated files created by the mac
 .DS_Store
-
-#virtaul enviornment folder
-.venv_mlflow
